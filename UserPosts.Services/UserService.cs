@@ -3,7 +3,7 @@
     public class UserService
     {
         private readonly IUserRepository userRepository;
-        private readonly IPostRepository postRepository;
+        private readonly IPostRepository postRepository;       
 
         public UserService(IUserRepository userRepository, IPostRepository postRepository)
         {
@@ -58,5 +58,5 @@
         Inactive,
         Active, 
         Superactive
-    }
+    }  
 }
